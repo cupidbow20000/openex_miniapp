@@ -1,10 +1,17 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Auth() {
   return (
     <div className="flex flex-col justify-center items-center p-4">
       <div className="py-12 px-10 flex flex-col items-center">
-        <img className="w-26 h-28" src="/imgs/logo.png" alt="logo.png" />
+        <Image
+          width={104}
+          height={112}
+          className="w-26 h-28"
+          src="/imgs/logo.png"
+          alt="logo.png"
+        />
         <div className="font-semibold text-[32px] leading-[43px] text-center text-white bg-[#00204D] p-5 my-10 rounded-lg">
           Welcome to Match Quest
         </div>

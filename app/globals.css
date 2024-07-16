@@ -9,3 +9,7 @@ body {
 * {
   box-sizing: border-box;
 }
+body {  
+  background-image: url('/imgs/bg.png');  
+  background-size: cover; /* or specify other background properties */  
+}  

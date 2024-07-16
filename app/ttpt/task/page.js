@@ -1,6 +1,7 @@
 import { FaTelegram, FaXTwitter } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa";
 import { BiLogoTelegram } from "react-icons/bi";
+import Image from "next/image";
 
 export default function Task() {
   return (
@@ -13,11 +14,7 @@ export default function Task() {
           <br /> POINTS AND
           <br /> INVITATION
         </div>
-        <img
-          className="w-[138px] h-[93px]"
-          src="/imgs/gift.png"
-          alt="gift.png"
-        />
+        <Image width={138} height={93} src="/imgs/gift.png" alt="gift.png" />
       </div>
       <div className="w-full border-2 border-[#7D4DC2] flex justify-between rounded-xl px-5">
         <div className="pt-2 pb-1">
@@ -53,7 +50,7 @@ export default function Task() {
           <div className="flex justify-start items-center">
             <FaXTwitter className="w-6 h-6" />
             <div className="pl-5">
-              <div className="text-[15px]">Follow openex's x</div>
+              <div className="text-[15px]">Follow openex&apos;s x</div>
               <div className="text-[13px]">+50 Points</div>
             </div>
           </div>
@@ -65,7 +62,7 @@ export default function Task() {
           <div className="flex justify-start items-center">
             <FaDiscord className="w-6 h-6" />
             <div className="pl-5">
-              <div className="text-[15px]">Join openex's Discord</div>
+              <div className="text-[15px]">Join openex&apos;s Discord</div>
               <div className="text-[13px]">+50 Points</div>
             </div>
           </div>
@@ -77,7 +74,7 @@ export default function Task() {
           <div className="flex justify-start items-center">
             <BiLogoTelegram className="w-6 h-6" />
             <div className="pl-5">
-              <div className="text-[15px]">Join openex's Telegram</div>
+              <div className="text-[15px]">Join openex&apos;s Telegram</div>
               <div className="text-[13px]">+50 Points</div>
             </div>
           </div>
@@ -87,9 +84,15 @@ export default function Task() {
         </div>
         <div className="w-full mt-2 flex justify-between items-center">
           <div className="flex justify-start items-center">
-            <img className="w-6 h-6" src="/imgs/logo1.png" alt="logo1.png" />
+            <Image
+              className="w-6 h-6"
+              width={24}
+              height={24}
+              src="/imgs/logo1.png"
+              alt="logo1.png"
+            />
             <div className="pl-5">
-              <div className="text-[15px]">View openex's website</div>
+              <div className="text-[15px]">View openex&apos;s website</div>
               <div className="text-[13px]">+50 Points</div>
             </div>
           </div>

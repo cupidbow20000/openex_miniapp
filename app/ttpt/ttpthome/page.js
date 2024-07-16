@@ -2,6 +2,7 @@
 import { IoWalletOutline } from "react-icons/io5";
 import "./index.css";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function Ttpthome() {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,7 +17,13 @@ export default function Ttpthome() {
     <div className="px-8 pb-12">
       <div className="w-full flex flex-col space-y-4 items-center mt-14">
         <div className="w-24 h-24 p-6 bg-[#002A65] border-2 border-[#000B6E] rounded-full flex flex-col justify-center items-center">
-          <img className="w-auto" src="/imgs/logo.png" alt="logo.png" />
+          <Image
+            width={98}
+            height={98}
+            className="w-auto h-auto"
+            src="/imgs/logo.png"
+            alt="logo.png"
+          />
         </div>
         <div className="text-white text-2xl">TTPT</div>
         <div className="flex space-x-1 text-[#818181]">

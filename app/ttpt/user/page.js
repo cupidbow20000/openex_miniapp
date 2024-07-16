@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function User() {
   return (
     <div className="px-8 pb-12">
@@ -20,8 +22,10 @@ export default function User() {
             additional 3% from their referrals
           </div>
           <div className="flex flex-col items-center">
-            <img
+            <Image
               className="w-[238px] h-[204px]"
+              width={238}
+              height={204}
               src="/imgs/no.png"
               alt="no.png"
             />
