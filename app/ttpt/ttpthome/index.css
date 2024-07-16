@@ -1,0 +1,12 @@
+.homee {
+    /* Initial state */
+    opacity: 0;
+    transform: translateX(150%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .homee.fadeInLeft {
+    /* Animated state */
+    opacity: 1;
+    transform: translateX(0);
+  }
